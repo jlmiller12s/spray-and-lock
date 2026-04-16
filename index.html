@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spray N Lock - Premium Spray-On Bedliners & Protective Coatings. Lifetime warranty. Serving the community for 15+ years.">
+    <meta name="theme-color" content="#E31837">
+    <title>Spray N Lock | Premium Protective Coatings</title>
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+    <div class="loader__content">
+        <div class="loader__logo">SPRAY<span>N</span>LOCK</div>
+        <div class="loader__bar"><div class="loader__progress"></div></div>
+    </div>
+</div>
+
+<!-- Navigation -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">SPRAY<span>N</span>LOCK</a>
+        <button class="nav__toggle" id="navToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__menu" id="navMenu">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="btn btn--nav">Get Quote</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+    <div class="hero__bg">
+        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=1920&q=80" alt="Protected truck">
+    </div>
+    <div class="hero__content container">
+        <span class="hero__tag">Premium Protective Coatings</span>
+        <h1 class="hero__title">
+            <span>PROTECT</span>
+            <span>EVERYTHING<span class="dot">.</span></span>
+        </h1>
+        <p class="hero__sub">Spray-on bedliners & coatings that last a lifetime. No peeling. No fading. No BS.</p>
+        <div class="hero__buttons">
+            <a href="#contact" class="btn btn--primary">Get Free Estimate →</a>
+            <a href="#services" class="btn btn--ghost">See Our Work</a>
+        </div>
+    </div>
+    <div class="hero__stats">
+        <div><strong>15+</strong><span>Years</span></div>
+        <div><strong>10K+</strong><span>Vehicles</span></div>
+        <div><strong>&#8734;</strong><span>Warranty</span></div>
+    </div>
+    <div class="hero__scroll"><span>Scroll</span><div class="line"></div></div>
+</section>
+
+<!-- Services -->
+<section class="services" id="services">
+    <div class="container">
+        <header class="section-head">
+            <span class="section-head__tag">What We Do</span>
+            <h2>Built to Last</h2>
+            <p class="section-head__desc">Industrial-grade protection for anything with wheels — or without.</p>
+        </header>
+        <div class="services__grid">
+            <article class="card">
+                <div class="card__img">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Spray-on bedliner" loading="lazy">
+                </div>
+                <div class="card__body">
+                    <span class="card__num">01</span>
+                    <h3>Spray-On Bedliners</h3>
+                    <p>The ultimate truck bed protection. Watertight seal, textured grip, permanent bond. Never worry about scratches, dents, or rust again.</p>
+                    <ul><li>UV-stable formula</li><li>Chemical resistant</li><li>Same-day service</li></ul>
+                </div>
+            </article>
+            <article class="card card--reverse">
+                <div class="card__img">
+                    <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=600&q=80" alt="Vehicle coating" loading="lazy">
+                </div>
+                <div class="card__body">
+                    <span class="card__num">02</span>
+                    <h3>Full Vehicle Coatings</h3>
+                    <p>Jeeps, ATVs, trailers, boats — if it takes a beating, we can coat it. Rugged protection with a professional finish.</p>
+                    <ul><li>Custom colors available</li><li>Textured or smooth finish</li><li>Rocker panels & fenders</li></ul>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card__img">
+                    <img src="https://images.unsplash.com/photo-1566008885218-90abf9200ddb?w=600&q=80" alt="Commercial fleet" loading="lazy">
+                </div>
+                <div class="card__body">
+                    <span class="card__num">03</span>
+                    <h3>Commercial & Fleet</h3>
+                    <p>Volume pricing for businesses. Protect your work trucks, trailers, and equipment. One call, entire fleet protected.</p>
+                    <ul><li>Fleet discounts</li><li>Scheduled maintenance</li><li>Priority service</li></ul>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+    <div class="container">
+        <div class="stats__grid">
+            <div class="stat">
+                <span class="stat__number" data-target="15">0</span><span class="stat__suffix">+</span>
+                <span class="stat__label">Years Experience</span>
+            </div>
+            <div class="stat">
+                <span class="stat__number" data-target="10000">0</span><span class="stat__suffix">+</span>
+                <span class="stat__label">Vehicles Protected</span>
+            </div>
+            <div class="stat">
+                <span class="stat__number" data-target="100">0</span><span class="stat__suffix">%</span>
+                <span class="stat__label">Satisfaction Rate</span>
+            </div>
+            <div class="stat">
+                <span class="stat__number">&#8734;</span>
+                <span class="stat__label">Lifetime Warranty</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+    <header class="section-head">
+        <span class="section-head__tag">Our Work</span>
+        <h2>See the Difference</h2>
+    </header>
+    <div class="gallery__wrapper">
+        <div class="gallery__track" id="galleryTrack">
+            <figure class="gallery__item">
+                <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&q=80" alt="Ford F-150 bedliner" loading="lazy">
+                <figcaption>Ford F-150 &bull; Full Bedliner</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Jeep Wrangler coating" loading="lazy">
+                <figcaption>Jeep Wrangler &bull; Exterior Armor</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80" alt="Boat hull protection" loading="lazy">
+                <figcaption>Boat Hull &bull; Marine Grade</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&q=80" alt="Classic truck restoration" loading="lazy">
+                <figcaption>Chevy C10 &bull; Bed Restoration</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="https://images.unsplash.com/photo-1566008885218-90abf9200ddb?w=800&q=80" alt="Utility trailer" loading="lazy">
+                <figcaption>Utility Trailer &bull; Full Coat</figcaption>
+            </figure>
+            <figure class="gallery__item">
+                <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80" alt="Off-road vehicle" loading="lazy">
+                <figcaption>Toyota 4Runner &bull; Rock Armor</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="gallery__nav container">
+        <button class="gallery__btn" id="galleryPrev" aria-label="Previous">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        </button>
+        <div class="gallery__dots" id="galleryDots"></div>
+        <button class="gallery__btn" id="galleryNext" aria-label="Next">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+    </div>
+</section>
+
+<!-- Process -->
+<section class="process" id="process">
+    <div class="container">
+        <header class="section-head">
+            <span class="section-head__tag">How It Works</span>
+            <h2>4 Steps to Protection</h2>
+        </header>
+        <div class="process__grid">
+            <div class="process__step">
+                <div class="process__icon"><span>01</span></div>
+                <h3>Get a Quote</h3>
+                <p>Call or fill out our form. Free estimate, no obligation, no pressure.</p>
+            </div>
+            <div class="process__connector"></div>
+            <div class="process__step">
+                <div class="process__icon"><span>02</span></div>
+                <h3>Drop Off</h3>
+                <p>Bring your vehicle to our shop. We handle everything from there.</p>
+            </div>
+            <div class="process__connector"></div>
+            <div class="process__step">
+                <div class="process__icon"><span>03</span></div>
+                <h3>Precision Application</h3>
+                <p>We prep, prime, and spray with professional-grade equipment. Multiple coats.</p>
+            </div>
+            <div class="process__connector"></div>
+            <div class="process__step">
+                <div class="process__icon"><span>04</span></div>
+                <h3>Drive Away Protected</h3>
+                <p>Quality inspection, full cure in 24 hours. Lifetime warranty included.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="about__grid">
+            <div class="about__content">
+                <span class="section-head__tag">About Us</span>
+                <h2 class="about__title">Family Owned.<br>Quality Obsessed.</h2>
+                <p>For over 15 years, Spray N Lock has been the trusted name in protective coatings. We're not a franchise — we're a family business that takes pride in every single job.</p>
+                <p>We use only premium polyurea coatings, applied with professional-grade heated spray equipment. The result? A finish that won't peel, crack, or fade — guaranteed for life.</p>
+                <div class="about__features">
+                    <div class="about__feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        <span>Licensed & Insured</span>
+                    </div>
+                    <div class="about__feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        <span>Lifetime Warranty</span>
+                    </div>
+                    <div class="about__feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        <span>Premium Materials Only</span>
+                    </div>
+                    <div class="about__feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        <span>Same-Day Turnaround</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about__image">
+                <img src="https://images.unsplash.com/photo-1504222490345-c075b6008014?w=800&q=80" alt="Spray N Lock shop" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+    <div class="container">
+        <header class="section-head">
+            <span class="section-head__tag">Reviews</span>
+            <h2>What Our Customers Say</h2>
+        </header>
+        <div class="testimonials__grid">
+            <div class="testimonial">
+                <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <blockquote>"Best bedliner I've ever had. Dropped a toolbox in the truck bed last week — not a scratch. These guys know what they're doing."</blockquote>
+                <cite>— Mike R., Ford F-250 Owner</cite>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <blockquote>"Had my entire Jeep coated before a trip to Moab. Rocks, branches, mud — nothing got through. Worth every penny."</blockquote>
+                <cite>— Sarah T., Jeep Wrangler Owner</cite>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <blockquote>"We use Spray N Lock for our entire fleet of work trucks. Professional, fast, and the coating holds up to serious abuse."</blockquote>
+                <cite>— Dave K., Fleet Manager</cite>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+    <div class="container">
+        <header class="section-head section-head--light">
+            <span class="section-head__tag">Get Started</span>
+            <h2>Request Your Free Quote</h2>
+            <p class="section-head__desc">Fill out the form and we'll get back to you within 24 hours.</p>
+        </header>
+        <form class="form" id="contactForm">
+            <div class="form__row">
+                <div class="form__group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form__group">
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                </div>
+            </div>
+            <div class="form__row">
+                <div class="form__group">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form__group">
+                    <select name="service" required>
+                        <option value="">Select Service</option>
+                        <option>Spray-On Bedliner</option>
+                        <option>Full Vehicle Coating</option>
+                        <option>Rocker Panels / Fenders</option>
+                        <option>Commercial / Fleet</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form__group">
+                <input type="text" name="vehicle" placeholder="Vehicle Year, Make & Model">
+            </div>
+            <div class="form__group">
+                <textarea name="message" placeholder="Tell us about your project..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send Request →</button>
+            <p class="form__note">No spam. No obligation. Just a quick quote.</p>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div class="footer__brand">
+                <h4 class="footer__logo">SPRAY<span>N</span>LOCK</h4>
+                <p>Premium protective coatings since 2009. Lifetime warranty on all work.</p>
+            </div>
+            <div class="footer__links">
+                <h5>Quick Links</h5>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#process">Process</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer__contact">
+                <h5>Get In Touch</h5>
+                <a href="https://instagram.com/spraynlock" target="_blank" rel="noopener">Follow @spraynlock</a>
+                <p>info@spraynlock.com</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; <span id="year"></span> Spray N Lock. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
